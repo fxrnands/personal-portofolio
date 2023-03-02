@@ -2,6 +2,7 @@ import Card from "@/components/about-me";
 import Experience from "@/components/experiences";
 import GreetingCard from "@/components/greeting-card";
 import Navbar from "@/components/navbar";
+import Project from "@/components/project";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <GreetingCard />
       <Card />
       <Experience />
+      <Project />
     </>
   );
 }

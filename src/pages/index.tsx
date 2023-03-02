@@ -1,4 +1,5 @@
 import Card from "@/components/about-me";
+import Experience from "@/components/experiences";
 import GreetingCard from "@/components/greeting-card";
 import Navbar from "@/components/navbar";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <GreetingCard />
       <Card />
+      <Experience />
     </>
   );
 }

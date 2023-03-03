@@ -8,6 +8,7 @@ import {
   SiJavascript,
   SiGoland,
 } from "react-icons/si";
+import { FiPhoneCall } from "react-icons/fi";
 
 export default function GreetingCard() {
   const icons = [
@@ -42,10 +43,17 @@ export default function GreetingCard() {
           href="#"
           className="rounded-md bg-red-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-red-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
         >
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-300">
-            Interested to collaborate ? <span aria-hidden="true">→</span>
+          <a href="mailto:fxrnands@gmail.com" className="text-sm font-semibold leading-6 text-gray-300">
+            Interested to collaborate ?
           </a>
         </a>
+        <button
+          type="button"
+          className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-800 py-2 px-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        >
+          <FiPhoneCall className="-ml-0.5 h-7 w-5" aria-hidden="true" />
+          <a href="https://wa.me/081286311715">Let's Talk</a>
+        </button>
       </div>
     </div>
   );

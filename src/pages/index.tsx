@@ -3,7 +3,7 @@ import Experience from "@/components/experiences";
 import GreetingCard from "@/components/greeting-card";
 import Navbar from "@/components/navbar";
 import Project from "@/components/project";
-import Footer from "@/components/footer"
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (

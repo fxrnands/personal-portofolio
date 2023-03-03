@@ -10,12 +10,13 @@ export default function Project() {
     },
     {
       id: 2,
-      title: "Materiku",
+      title: "Cinema Online",
       href: "#",
       description:
-        "This is the second website that I created since I first learned coding. Using HTML and CSS without Javascript and only as a landing page. This is where I first started to like the world of Frontend Developer.",
-      imageUrl: "/materiku.PNG",
+        "Just like Dumbflix, this is an online cinema streaming project. However, it has a movie buying feature, unlike Dumbflix which has a premium feature.",
+      imageUrl: "/cinema-online.PNG",
     },
+
     {
       id: 3,
       title: "Pokédex App",
@@ -42,16 +43,16 @@ export default function Project() {
     },
     {
       id: 6,
-      title: "Cinema Online",
+      title: "Materiku",
       href: "#",
       description:
-        "Just like Dumbflix, this is an online cinema streaming project. However, it has a movie buying feature, unlike Dumbflix which has a premium feature.",
-      imageUrl: "/cinema-online.PNG",
+        "This is the second website that I created since I first learned coding. Using HTML and CSS without Javascript and only as a landing page. This is where I first started to like the world of Frontend Developer.",
+      imageUrl: "/materiku.PNG",
     },
   ];
 
   return (
-    <div className="bg-gray-900 mx-20 px-10 bg-opacity-[80%] mb-[8rem] sm:py-32">
+    <div className="bg-gray-900 mx-20 px-10 bg-opacity-[80%] mb-[8rem] py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">

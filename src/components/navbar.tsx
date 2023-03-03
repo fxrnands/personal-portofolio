@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import Image from "next/image";
+import { FiDownload } from "react-icons/fi";
 
 const navigation = [
   { name: "Experience", href: "#" },
@@ -37,7 +38,7 @@ export default function NavigationBar() {
             <span className="sr-only">Open main menu</span>
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12">
+        {/* <div className="hidden ml-10 flex-1 lg:flex lg:gap-x-12">
           {navigation.map((item) => (
             <a
               key={item.name}
@@ -47,6 +48,15 @@ export default function NavigationBar() {
               {item.name}
             </a>
           ))}
+        </div> */}
+        <div className="flex-1 flex justify-end lg:flex-1 lg:gap-x-12">
+          <button
+            type="button"
+            className="inline-flex items-center gap-x-1.5 rounded-md bg-indigo-800 py-2 px-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          >
+            <FiDownload className="-ml-0.5 h-5 w-5" aria-hidden="true" />
+            <a href="https://drive.google.com/file/d/1V3LboTXEU1Y1LqHH8xItUPfVR6KlyOsA/view?usp=sharing"> Download CV</a>
+          </button>
         </div>
       </nav>
       <Dialog

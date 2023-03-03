@@ -29,7 +29,7 @@ export default function Experience() {
     },
   ];
   return (
-    <div className="rounded mb-20 bg-gray-900 bg-opacity-80 mt-20 mx-20 py-24 sm:py-32">
+    <div className="rounded mb-20 bg-gray-900 bg-opacity-80 mt-20 mx-20 py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl">

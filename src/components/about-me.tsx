@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Card() {
   return (
-    <div className="mx-auto bg-gray-900 bg-opacity-[80%] pb-10 rounded flex -mt-10 max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
+    <div className="mx-auto w-full bg-gray-900 bg-opacity-[80%] pb-10 rounded flex -mt-10 max-w-7xl flex-col items-center gap-y-10 gap-x-8 px-6 sm:gap-y-8 lg:px-8 xl:flex-row xl:items-stretch">
       <div className="-mt-8 w-full max-w-2xl xl:-mb-8 xl:w-96 xl:flex-none">
         <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
           <Image

@@ -1,53 +1,54 @@
+import Image from "next/image";
+
 export default function Project() {
   const posts = [
     {
       id: 1,
       title: "Dumbflix (Netflix Clone)",
-      href: "#",
+      href: "https://dumbflix-appsite.netlify.app/",
       description:
         "Creating an online-based movie streaming website such as Netflix has premium and free features, has a payment gateway using Midtrans. Using React JS tech for the Frontend, and Golang for the Backend.",
-      imageUrl: "/dumbflix.PNG",
+      imageUrl: "/svg/dumbflix.svg",
     },
     {
       id: 2,
       title: "Cinema Online",
-      href: "#",
       description:
-        "Just like Dumbflix, this is an online cinema streaming project. However, it has a movie buying feature, unlike Dumbflix which has a premium feature.",
-      imageUrl: "/cinema-online.PNG",
+        "Just like Dumbflix, this is an online cinema streaming project. However, it has a movie buying feature, unlike Dumbflix which has a premium feature. In this project, my final test was at my bootcamp.",
+      imageUrl: "/svg/cinema-online.svg",
     },
 
     {
       id: 3,
       title: "Pokédex App",
-      href: "#",
+      href: "https://pokedex-app-phi-nine.vercel.app/",
       description:
         "Create a pokedex web app to find pokemon data, use PokéAPI to get pokemon data. Using React JS technologies for the frontend. This is the application that I like the most when developing.",
-      imageUrl: "/pokedex.PNG",
+      imageUrl: "/svg/pokedex.svg",
     },
     {
       id: 4,
       title: "Personal Web Portofolio",
-      href: "#",
+      href: "https://fernands-portofolio.vercel.app/",
       description:
-        "The funny thing is, this is the first website I made when I first learned coding. Uses vanilla HTML and CSS. This is also my first time learning to use vanilla Javascript.",
-      imageUrl: "/Capture.PNG",
+        "This is the first website I made when I first learned coding. Uses vanilla HTML and CSS. This is also my first time learning Javascript. This is the website where my journey as a frontend developer begin.",
+      imageUrl: "/svg/first-portofolio.svg",
     },
     {
       id: 5,
       title: "Github Search Engine",
-      href: "#",
+      href: "https://github-search-engine-two.vercel.app/",
       description:
-        "One of my projects for fun, using the Github API to find users and repositories from other people's github accounts. Using ReactJS technology.",
-      imageUrl: "/github-search.png",
+        "One of my projects for fun, using the Github API to find users and repositories from other people's github accounts. Using ReactJS technology. A project that I do when it's relaxed on weekends.",
+      imageUrl: "/svg/github-search.svg",
     },
     {
       id: 6,
       title: "Materiku",
-      href: "#",
+      href: "https://website-sederhana-materiku.vercel.app/",
       description:
         "This is the second website that I created since I first learned coding. Using HTML and CSS without Javascript and only as a landing page. This is where I first started to like the world of Frontend Developer.",
-      imageUrl: "/materiku.PNG",
+      imageUrl: "/svg/materiku.svg",
     },
   ];
 
@@ -69,10 +70,12 @@ export default function Project() {
               className="flex flex-col items-start justify-between"
             >
               <div className="relative w-full">
-                <img
+                <Image
                   src={post.imageUrl}
+                  width={400}
+                  height={100}
                   alt=""
-                  className="aspect-[16/9] w-full object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                  className="aspect-[16/9] w-full object-cover sm:aspect-[16/9] lg:aspect-[16/9]"
                 />
                 <div className="absolute inset-0 ring-1 ring-inset ring-gray-900/10" />
               </div>

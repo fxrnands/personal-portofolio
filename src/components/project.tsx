@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Project() {
+  
   const posts = [
     {
       id: 1,
@@ -69,7 +70,7 @@ export default function Project() {
               key={post.id}
               className="flex flex-col items-start justify-between"
             >
-              <div className="relative w-full">
+              <div className="relative hover:opacity-70 w-full">
                 <Image
                   src={post.imageUrl}
                   width={400}

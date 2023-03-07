@@ -21,7 +21,7 @@ export default function GreetingCard() {
   ];
   return (
     <motion.div
-      className="text-center px-20 my-[13rem]"
+      className="text-center px-[20px] md:px-20 lg:px-20 my-[13rem]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}

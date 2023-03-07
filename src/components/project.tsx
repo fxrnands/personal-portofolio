@@ -74,20 +74,20 @@ export default function Project() {
                   src={post.imageUrl}
                   width={400}
                   height={100}
-                  alt=""
+                  alt="project-image"
                   className="aspect-[16/9] w-full object-cover sm:aspect-[16/9] lg:aspect-[16/9]"
                 />
                 <div className="absolute inset-0 ring-1 ring-inset ring-gray-900/10" />
               </div>
               <div className="max-w-xl">
                 <div className="group relative">
-                  <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-300">
+                  <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-300 hover:text-gray-400">
                     <a href={post.href}>
                       <span className="absolute inset-0" />
                       {post.title}
                     </a>
                   </h3>
-                  <p className="mt-5 text-sm leading-6 text-gray-300 line-clamp-3">
+                  <p className="mt-5 text-sm leading-6 text-gray-300 hover:text-gray-500 line-clamp-3">
                     {post.description}
                   </p>
                 </div>

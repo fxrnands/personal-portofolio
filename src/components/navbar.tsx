@@ -26,7 +26,7 @@ export default function NavigationBar() {
           >
             <FiDownload className="-ml-0.5 h-5 w-5" aria-hidden="true" />
             <a href="https://drive.google.com/file/d/1V3LboTXEU1Y1LqHH8xItUPfVR6KlyOsA/view?usp=sharing">
-              Download CV
+              {`Download CV`}
             </a>
           </button>
         </div>

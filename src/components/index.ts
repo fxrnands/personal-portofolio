@@ -1,0 +1,6 @@
+export { default as AboutMe } from './about-me'
+export { default as Experiences } from './experiences'
+export { default as Footer } from './footer'
+export { default as Greetings } from './greeting-card'
+export { default as Navbar } from './navbar'
+export { default as Projects } from './project'
